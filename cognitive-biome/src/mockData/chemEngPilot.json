@@ -1,0 +1,22 @@
+{
+  "faculty": "Chemical Engineering",
+  "cohort": "Year 1 - Semester 2",
+  "critical_milestones": [
+    {
+      "course": "CHEN101 - Fluid Mechanics",
+      "event": "Navier-Stokes Theorem Midterm",
+      "date": "2026-03-25",
+      "historical_cognitive_load": "High"
+    },
+    {
+      "course": "MATH202 - Advanced Calculus",
+      "event": "Weekly Problem Set 6",
+      "date": "2026-03-20",
+      "historical_cognitive_load": "Medium"
+    }
+  ],
+  "autonomous_intervention_trigger": {
+    "condition": "If avg_distraction_toggles > 30 within 48hrs of CHEN101 Midterm",
+    "action": "Set Biome to 'Rest State', Block 8:00 PM - 10:00 PM for Deep Work"
+  }
+}
